@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: json-to-models
-Version: 0.0.1
+Version: 0.0.2
 Summary: extracts python models from json files
 Author: Ricky Ding
 Project-URL: Homepage, https://github.com/tesla-cat/json-to-models
@@ -15,3 +15,18 @@ Description-Content-Type: text/markdown
  
 extracts python models from json files
 
+## usage
+
+- input: [./json_data](https://github.com/tesla-cat/json-to-models/tree/main/json_data)
+
+```cmd
+pip install json-to-models
+```
+
+```python
+from json_to_models import JsonToModels
+
+JsonToModels(data_dir='./json_data', root_name='Project')
+```
+
+- output: [models.py](https://github.com/tesla-cat/json-to-models/blob/main/models.py)

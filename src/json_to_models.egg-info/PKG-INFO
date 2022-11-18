@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: json-to-models
+Version: 0.0.1
+Summary: extracts python models from json files
+Author: Ricky Ding
+Project-URL: Homepage, https://github.com/tesla-cat/json-to-models
+Project-URL: Bug Tracker, https://github.com/tesla-cat/json-to-models/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# json to models
+ 
+extracts python models from json files
+

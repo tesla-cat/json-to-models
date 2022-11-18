@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Ricky Ding" },
 ]
-description = "A small example package"
+description = "extracts python models from json files"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/tesla-cat/json-to-models"
+"Bug Tracker" = "https://github.com/tesla-cat/json-to-models/issues"

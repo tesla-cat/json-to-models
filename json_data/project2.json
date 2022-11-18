@@ -1,0 +1,5121 @@
+{
+    "custom_fields": [],
+    "property_values": {
+        "start_date": "2022-01-19T08:00:00.0",
+        "currency_symbol": "$",
+        "currency_symbol_position": "BEFORE",
+        "currency_digits": 2,
+        "thousands_separator": ",",
+        "decimal_separator": ".",
+        "default_work_units": "h",
+        "updating_task_status_updates_resource_status": true,
+        "split_in_progress_tasks": true,
+        "date_order": "DMY",
+        "time_format": "TWELVE_HOUR",
+        "default_start_time": "08:00",
+        "date_separator": "/",
+        "time_separator": ":",
+        "am_text": "am",
+        "pm_text": "pm",
+        "date_format": "DD_MM_YYYY",
+        "bar_text_date_format": "DD_MM_YYYY",
+        "project_title": "Fictional Project",
+        "default_calendar_unique_id": 1,
+        "schedule_from": "START",
+        "current_date": "2022-11-10T14:24:28.0",
+        "default_end_time": "17:00",
+        "minutes_per_day": 480,
+        "days_per_month": 20,
+        "minutes_per_week": 2880,
+        "minutes_per_month": 9600,
+        "minutes_per_year": 115200,
+        "default_task_earned_value_method": "PERCENT_COMPLETE",
+        "new_tasks_estimated": true,
+        "auto_add_new_resources_and_tasks": true,
+        "last_saved": "2022-11-10T14:24:56.0",
+        "auto_link": true,
+        "microsoft_project_server_url": true,
+        "inserted_projects_like_summary": true,
+        "name": "Fictional Project",
+        "new_tasks_effort_driven": true,
+        "actuals_in_sync": true,
+        "default_task_type": "FIXED_UNITS",
+        "earned_value_method": "PERCENT_COMPLETE",
+        "creation_date": "2018-08-29T08:00:00.0",
+        "extended_creation_date": "1984-01-01T00:00:00.0",
+        "default_fixed_cost_accrual": "PRORATED",
+        "fiscal_year_start_month": 1,
+        "new_task_start_is_project_start": true,
+        "week_start_day": "MONDAY",
+        "mpx_delimiter": ",",
+        "mpx_program_name": "Microsoft Project for Windows",
+        "mpx_file_version": "VERSION_4_0",
+        "mpx_code_page": "ANSI",
+        "application_version": 12,
+        "file_application": "Microsoft",
+        "file_type": "MSPDI",
+        "critical_activity_type": "TOTAL_FLOAT",
+        "finish_date": "2023-03-15T17:00:00.0"
+    },
+    "calendars": [
+        {
+            "unique_id": 1,
+            "name": "Standard",
+            "type": "GLOBAL",
+            "sunday": {
+                "type": "non_working"
+            },
+            "monday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "08:00",
+                        "to": "12:00"
+                    },
+                    {
+                        "from": "13:00",
+                        "to": "17:00"
+                    }
+                ]
+            },
+            "tuesday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "08:00",
+                        "to": "12:00"
+                    },
+                    {
+                        "from": "13:00",
+                        "to": "17:00"
+                    }
+                ]
+            },
+            "wednesday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "08:00",
+                        "to": "12:00"
+                    },
+                    {
+                        "from": "13:00",
+                        "to": "17:00"
+                    }
+                ]
+            },
+            "thursday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "08:00",
+                        "to": "12:00"
+                    },
+                    {
+                        "from": "13:00",
+                        "to": "17:00"
+                    }
+                ]
+            },
+            "friday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "08:00",
+                        "to": "12:00"
+                    },
+                    {
+                        "from": "13:00",
+                        "to": "17:00"
+                    }
+                ]
+            },
+            "saturday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "08:00",
+                        "to": "12:00"
+                    },
+                    {
+                        "from": "13:00",
+                        "to": "17:00"
+                    }
+                ]
+            }
+        },
+        {
+            "unique_id": 2,
+            "name": "24 Hours",
+            "type": "GLOBAL",
+            "sunday": {
+                "type": "working"
+            },
+            "monday": {
+                "type": "working"
+            },
+            "tuesday": {
+                "type": "working"
+            },
+            "wednesday": {
+                "type": "working"
+            },
+            "thursday": {
+                "type": "working"
+            },
+            "friday": {
+                "type": "working"
+            },
+            "saturday": {
+                "type": "working"
+            }
+        },
+        {
+            "unique_id": 3,
+            "name": "Night Shift",
+            "type": "GLOBAL",
+            "sunday": {
+                "type": "non_working"
+            },
+            "monday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "23:00",
+                        "to": "00:00"
+                    }
+                ]
+            },
+            "tuesday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "04:00",
+                        "to": "08:00"
+                    },
+                    {
+                        "from": "23:00",
+                        "to": "00:00"
+                    }
+                ]
+            },
+            "wednesday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "04:00",
+                        "to": "08:00"
+                    },
+                    {
+                        "from": "23:00",
+                        "to": "00:00"
+                    }
+                ]
+            },
+            "thursday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "04:00",
+                        "to": "08:00"
+                    },
+                    {
+                        "from": "23:00",
+                        "to": "00:00"
+                    }
+                ]
+            },
+            "friday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "04:00",
+                        "to": "08:00"
+                    },
+                    {
+                        "from": "23:00",
+                        "to": "00:00"
+                    }
+                ]
+            },
+            "saturday": {
+                "type": "working",
+                "hours": [
+                    {
+                        "from": "04:00",
+                        "to": "08:00"
+                    }
+                ]
+            }
+        },
+        {
+            "unique_id": 4,
+            "parent_unique_id": 1,
+            "name": "Pipe Fitter",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        },
+        {
+            "unique_id": 5,
+            "parent_unique_id": 1,
+            "name": "Crane Operator",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        },
+        {
+            "unique_id": 6,
+            "parent_unique_id": 1,
+            "name": "General Fitter",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        },
+        {
+            "unique_id": 7,
+            "parent_unique_id": 1,
+            "name": "Inspector",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        },
+        {
+            "unique_id": 8,
+            "parent_unique_id": 1,
+            "name": "Workshop Tech.",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        },
+        {
+            "unique_id": 9,
+            "parent_unique_id": 1,
+            "name": "Welder",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        },
+        {
+            "unique_id": 10,
+            "parent_unique_id": 1,
+            "name": "Operations",
+            "type": "RESOURCE",
+            "personal": true,
+            "sunday": {
+                "type": "default"
+            },
+            "monday": {
+                "type": "default"
+            },
+            "tuesday": {
+                "type": "default"
+            },
+            "wednesday": {
+                "type": "default"
+            },
+            "thursday": {
+                "type": "default"
+            },
+            "friday": {
+                "type": "default"
+            },
+            "saturday": {
+                "type": "default"
+            }
+        }
+    ],
+    "resources": [
+        {
+            "max_units": 100.0,
+            "accrue_at": "PRORATED",
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "created": "2022-11-10T14:24:56.0",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 2
+        },
+        {
+            "id": 1,
+            "name": "Pipe Fitter",
+            "initials": "P",
+            "max_units": 2000.0,
+            "standard_rate": "400.0/d",
+            "cost": 3328.0,
+            "work": 23961600,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 3328.0,
+            "remaining_work": 23961600,
+            "work_variance": 23961600,
+            "cost_variance": 3328.0,
+            "peak": 34000.0,
+            "unique_id": 1,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 4,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "400.0/d"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Crane Operator",
+            "initials": "C",
+            "max_units": 2000.0,
+            "standard_rate": "1600.0/d",
+            "cost": 112.0,
+            "work": 201600,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 112.0,
+            "remaining_work": 201600,
+            "work_variance": 201600,
+            "cost_variance": 112.0,
+            "peak": 2000.0,
+            "unique_id": 2,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 5,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "1600.0/d"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "General Fitter",
+            "initials": "G",
+            "max_units": 2000.0,
+            "standard_rate": "240.0/d",
+            "cost": 1920.0,
+            "work": 23040000,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 1920.0,
+            "remaining_work": 23040000,
+            "work_variance": 23040000,
+            "cost_variance": 1920.0,
+            "overallocated": true,
+            "peak": 11800.0,
+            "unique_id": 3,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 6,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "240.0/d"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "name": "Inspector",
+            "initials": "I",
+            "max_units": 2000.0,
+            "standard_rate": "2400.0/d",
+            "cost": 1344.0,
+            "work": 1612800,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 1344.0,
+            "remaining_work": 1612800,
+            "work_variance": 1612800,
+            "cost_variance": 1344.0,
+            "peak": 16800.0,
+            "unique_id": 4,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 7,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "2400.0/d"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "Workshop Tech.",
+            "initials": "W",
+            "max_units": 2000.0,
+            "standard_rate": "1200.0/d",
+            "cost": 744.0,
+            "work": 1785600,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 744.0,
+            "remaining_work": 1785600,
+            "work_variance": 1785600,
+            "cost_variance": 744.0,
+            "peak": 1200.0,
+            "unique_id": 5,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 8,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "1200.0/d"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "Welder",
+            "initials": "W",
+            "max_units": 2000.0,
+            "standard_rate": "3200.0/d",
+            "cost": 3456.0,
+            "work": 3110400,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 3456.0,
+            "remaining_work": 3110400,
+            "work_variance": 3110400,
+            "cost_variance": 3456.0,
+            "peak": 7900.0,
+            "unique_id": 6,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 9,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "3200.0/d"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "name": "Operations",
+            "initials": "O",
+            "max_units": 2000.0,
+            "standard_rate": "10.0/d",
+            "cost": 0.1,
+            "work": 28800,
+            "accrue_at": "PRORATED",
+            "remaining_cost": 0.1,
+            "remaining_work": 28800,
+            "work_variance": 28800,
+            "cost_variance": 0.1,
+            "peak": 700.0,
+            "unique_id": 7,
+            "can_level": true,
+            "workgroup": "DEFAULT",
+            "type": "WORK",
+            "active": true,
+            "booking_type": "COMMITTED",
+            "calendar_unique_id": 10,
+            "cost_rate_tables": {
+                "0": [
+                    {
+                        "rates": {
+                            "0": "10.0/d"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 53740800,
+            "remaining_work": 53740800,
+            "cost": 10904.1,
+            "name": "Fictional Project",
+            "wbs": "0",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "priority": 500,
+            "duration": 3542400,
+            "duration_variance": 3542400,
+            "remaining_duration": 3542400,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2023-03-15T17:00:00.0",
+            "late_start": "2022-10-24T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "unique_id": 0,
+            "summary": true,
+            "created": "2018-08-29T14:07:00.0",
+            "outline_number": "0",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "finish": "2023-03-15T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 53740800,
+            "remaining_work": 53740800,
+            "cost": 10904.1,
+            "name": "Shutdown Project",
+            "wbs": "1",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 1,
+            "priority": 500,
+            "duration": 3542400,
+            "duration_variance": 3542400,
+            "remaining_duration": 3542400,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2023-03-15T17:00:00.0",
+            "late_start": "2022-10-24T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "outline_level": 1,
+            "unique_id": 195,
+            "summary": true,
+            "created": "2022-01-20T09:54:48.0",
+            "outline_number": "1",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 0,
+            "finish": "2023-03-15T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 76.8,
+            "name": "Equiment Spadework 1",
+            "wbs": "1.1",
+            "constraint_type": "START_NO_EARLIER_THAN",
+            "constraint_date": "2022-10-24T08:00:00.0",
+            "total_slack": 240,
+            "id": 2,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2022-11-01T17:00:00.0",
+            "late_start": "2022-12-17T08:00:00.0",
+            "late_finish": "2022-12-26T17:00:00.0",
+            "successors": [
+                {
+                    "task_unique_id": 3,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 2,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.1",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-01T17:00:00.0"
+        },
+        {
+            "start": "2022-11-02T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Prep top cover and elbow  / Manhole cover removal",
+            "wbs": "1.2",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 3,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-11-02T08:00:00.0",
+            "early_finish": "2022-11-11T17:00:00.0",
+            "late_start": "2022-12-27T08:00:00.0",
+            "late_finish": "2023-01-05T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 2,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 4,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 3,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.2",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-11T17:00:00.0"
+        },
+        {
+            "start": "2022-11-12T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "name": "Lift Cover and elbow",
+            "wbs": "1.3",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 4,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-12T08:00:00.0",
+            "early_finish": "2022-11-12T17:00:00.0",
+            "late_start": "2023-01-06T08:00:00.0",
+            "late_finish": "2023-01-06T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 3,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 5,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 4,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.3",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Remove demister",
+            "wbs": "1.4",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 5,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-11-14T08:00:00.0",
+            "early_finish": "2022-11-17T17:00:00.0",
+            "late_start": "2023-01-07T08:00:00.0",
+            "late_finish": "2023-01-11T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 4,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 6,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 5,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.4",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-18T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 115200,
+            "remaining_work": 115200,
+            "cost": 9.6,
+            "name": "Set up ventilation",
+            "wbs": "1.5",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 6,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-11-18T08:00:00.0",
+            "early_finish": "2022-11-19T17:00:00.0",
+            "late_start": "2023-01-12T08:00:00.0",
+            "late_finish": "2023-01-13T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 5,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 7,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 6,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.5",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-19T17:00:00.0"
+        },
+        {
+            "start": "2022-11-21T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Gas test for CS entry",
+            "wbs": "1.6",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 7,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-21T08:00:00.0",
+            "early_finish": "2022-11-21T17:00:00.0",
+            "late_start": "2023-01-14T08:00:00.0",
+            "late_finish": "2023-01-14T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 6,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 8,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 7,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.6",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 48.0,
+            "name": "Pre-cleaning inspection",
+            "wbs": "1.7",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 8,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-11-22T08:00:00.0",
+            "early_finish": "2022-11-23T17:00:00.0",
+            "late_start": "2023-01-16T08:00:00.0",
+            "late_finish": "2023-01-17T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 7,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 9,
+                    "type": "FS"
+                },
+                {
+                    "task_unique_id": 12,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 8,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.7",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 128.0,
+            "name": "Clean Internal",
+            "wbs": "1.8",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 9,
+            "priority": 500,
+            "duration": 460800,
+            "duration_variance": 460800,
+            "remaining_duration": 460800,
+            "early_start": "2022-11-24T08:00:00.0",
+            "early_finish": "2022-12-12T17:00:00.0",
+            "late_start": "2023-01-18T08:00:00.0",
+            "late_finish": "2023-02-04T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 8,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 10,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 9,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.8",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Post-cleaning inspection",
+            "wbs": "1.9",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 10,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-12-13T08:00:00.0",
+            "early_finish": "2022-12-13T17:00:00.0",
+            "late_start": "2023-02-06T08:00:00.0",
+            "late_finish": "2023-02-06T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 9,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 11,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 10,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.9",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-13T17:00:00.0"
+        },
+        {
+            "start": "2022-12-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Replace demister with new",
+            "wbs": "1.10",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 11,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-12-14T08:00:00.0",
+            "early_finish": "2022-12-17T17:00:00.0",
+            "late_start": "2023-02-07T08:00:00.0",
+            "late_finish": "2023-02-10T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 10,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 14,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 11,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.10",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "overallocated": true,
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Powerbrush for UTG @ CML (HW)",
+            "wbs": "1.11",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 480,
+            "id": 12,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-11-24T08:00:00.0",
+            "early_finish": "2022-12-02T17:00:00.0",
+            "late_start": "2023-02-25T08:00:00.0",
+            "late_finish": "2023-03-06T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 8,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 13,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 12,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.11",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2304000,
+            "finish_slack": 2304000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-02T17:00:00.0"
+        },
+        {
+            "start": "2022-12-03T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 230400,
+            "remaining_work": 230400,
+            "cost": 192.0,
+            "name": "UTG @ CML",
+            "wbs": "1.12",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 480,
+            "total_slack": 480,
+            "id": 13,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-12-03T08:00:00.0",
+            "early_finish": "2022-12-12T17:00:00.0",
+            "late_start": "2023-03-07T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 12,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 13,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.12",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2304000,
+            "finish_slack": 2304000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-19T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 32.0,
+            "name": "Lift top cover and elbow / manhole cover for reinstatement  (Using Crane)",
+            "wbs": "1.13",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 14,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-12-19T08:00:00.0",
+            "early_finish": "2022-12-20T17:00:00.0",
+            "late_start": "2023-02-11T08:00:00.0",
+            "late_finish": "2023-02-13T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 11,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 15,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 14,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.13",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-20T17:00:00.0"
+        },
+        {
+            "start": "2022-12-21T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1612800,
+            "remaining_work": 1612800,
+            "cost": 224.0,
+            "name": "Reinstate top cover and elbow / manhole cover / TFA",
+            "wbs": "1.14",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 15,
+            "priority": 500,
+            "duration": 403200,
+            "duration_variance": 403200,
+            "remaining_duration": 403200,
+            "early_start": "2022-12-21T08:00:00.0",
+            "early_finish": "2023-01-05T17:00:00.0",
+            "late_start": "2023-02-14T08:00:00.0",
+            "late_finish": "2023-03-01T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 14,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 16,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 15,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.14",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-05T17:00:00.0"
+        },
+        {
+            "start": "2023-01-06T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1382400,
+            "remaining_work": 1382400,
+            "cost": 192.0,
+            "name": "Despade / TFA",
+            "wbs": "1.15",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 240,
+            "total_slack": 240,
+            "id": 16,
+            "priority": 500,
+            "duration": 345600,
+            "duration_variance": 345600,
+            "remaining_duration": 345600,
+            "early_start": "2023-01-06T08:00:00.0",
+            "early_finish": "2023-01-19T17:00:00.0",
+            "late_start": "2023-03-02T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 15,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 16,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.15",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1353600,
+            "finish_slack": 1353600,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-19T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 345600,
+            "remaining_work": 345600,
+            "cost": 48.0,
+            "name": "Remove NRV",
+            "wbs": "1.16",
+            "constraint_type": "START_NO_EARLIER_THAN",
+            "constraint_date": "2022-10-24T08:00:00.0",
+            "total_slack": 480,
+            "id": 17,
+            "priority": 500,
+            "duration": 86400,
+            "duration_variance": 86400,
+            "remaining_duration": 86400,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2022-10-26T17:00:00.0",
+            "late_start": "2023-01-31T08:00:00.0",
+            "late_finish": "2023-02-02T17:00:00.0",
+            "successors": [
+                {
+                    "task_unique_id": 18,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 17,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.16",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2448000,
+            "finish_slack": 2448000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-10-26T17:00:00.0"
+        },
+        {
+            "start": "2022-10-27T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 864000,
+            "remaining_work": 864000,
+            "cost": 360.0,
+            "name": "Overhaul/ Testing",
+            "wbs": "1.17",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 480,
+            "id": 18,
+            "priority": 500,
+            "duration": 864000,
+            "duration_variance": 864000,
+            "remaining_duration": 864000,
+            "early_start": "2022-10-27T08:00:00.0",
+            "early_finish": "2022-11-30T17:00:00.0",
+            "late_start": "2023-02-03T08:00:00.0",
+            "late_finish": "2023-03-09T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 17,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 19,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 18,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.17",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2448000,
+            "finish_slack": 2448000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-30T17:00:00.0"
+        },
+        {
+            "start": "2022-12-01T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 48.0,
+            "name": "Inspection",
+            "wbs": "1.18",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 480,
+            "id": 19,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-12-01T08:00:00.0",
+            "early_finish": "2022-12-02T17:00:00.0",
+            "late_start": "2023-03-10T08:00:00.0",
+            "late_finish": "2023-03-11T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 18,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 20,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 19,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.18",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2448000,
+            "finish_slack": 2448000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-02T17:00:00.0"
+        },
+        {
+            "start": "2022-12-03T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 345600,
+            "remaining_work": 345600,
+            "cost": 48.0,
+            "name": "Reinstall NRV",
+            "wbs": "1.19",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 480,
+            "total_slack": 480,
+            "id": 20,
+            "priority": 500,
+            "duration": 86400,
+            "duration_variance": 86400,
+            "remaining_duration": 86400,
+            "early_start": "2022-12-03T08:00:00.0",
+            "early_finish": "2022-12-06T17:00:00.0",
+            "late_start": "2023-03-13T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 19,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 20,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.19",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2448000,
+            "finish_slack": 2448000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-06T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 86.4,
+            "name": "LOTO in, fuse out & cable out",
+            "wbs": "1.20",
+            "constraint_type": "START_NO_EARLIER_THAN",
+            "constraint_date": "2022-10-24T08:00:00.0",
+            "critical": true,
+            "id": 21,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2022-11-02T17:00:00.0",
+            "late_start": "2022-10-24T08:00:00.0",
+            "late_finish": "2022-11-02T17:00:00.0",
+            "successors": [
+                {
+                    "task_unique_id": 23,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 21,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.20",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-02T17:00:00.0"
+        },
+        {
+            "start": "2022-12-15T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 576000,
+            "remaining_work": 576000,
+            "cost": 48.0,
+            "name": "Send to workshop",
+            "wbs": "1.21",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 22,
+            "priority": 500,
+            "duration": 144000,
+            "duration_variance": 144000,
+            "remaining_duration": 144000,
+            "early_start": "2022-12-15T08:00:00.0",
+            "early_finish": "2022-12-20T17:00:00.0",
+            "late_start": "2022-12-15T08:00:00.0",
+            "late_finish": "2022-12-20T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 24,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 26,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 22,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.21",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "overallocated": true,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-20T17:00:00.0"
+        },
+        {
+            "start": "2022-11-03T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Spade in",
+            "wbs": "1.22",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 23,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-11-03T08:00:00.0",
+            "early_finish": "2022-11-12T17:00:00.0",
+            "late_start": "2022-11-03T08:00:00.0",
+            "late_finish": "2022-11-12T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 21,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 25,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 23,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.22",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 2073600,
+            "remaining_work": 2073600,
+            "cost": 172.8,
+            "name": "Remove pump",
+            "wbs": "1.23",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 24,
+            "priority": 500,
+            "duration": 518400,
+            "duration_variance": 518400,
+            "remaining_duration": 518400,
+            "early_start": "2022-11-24T08:00:00.0",
+            "early_finish": "2022-12-14T17:00:00.0",
+            "late_start": "2022-11-24T08:00:00.0",
+            "late_finish": "2022-12-14T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 25,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 22,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 24,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.23",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "overallocated": true,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-14T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 86.4,
+            "name": "Decouple with motor",
+            "wbs": "1.24",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 25,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-11-14T08:00:00.0",
+            "early_finish": "2022-11-23T17:00:00.0",
+            "late_start": "2022-11-14T08:00:00.0",
+            "late_finish": "2022-11-23T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 23,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 24,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 25,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.24",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-12-21T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 384.0,
+            "name": "Overhaul at workshop",
+            "wbs": "1.25",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 26,
+            "priority": 500,
+            "duration": 921600,
+            "duration_variance": 921600,
+            "remaining_duration": 921600,
+            "early_start": "2022-12-21T08:00:00.0",
+            "early_finish": "2023-01-26T17:00:00.0",
+            "late_start": "2022-12-21T08:00:00.0",
+            "late_finish": "2023-01-26T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 22,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 27,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 26,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.25",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-26T17:00:00.0"
+        },
+        {
+            "start": "2023-01-27T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 576000,
+            "remaining_work": 576000,
+            "cost": 48.0,
+            "name": "Send back to site",
+            "wbs": "1.26",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 27,
+            "priority": 500,
+            "duration": 144000,
+            "duration_variance": 144000,
+            "remaining_duration": 144000,
+            "early_start": "2023-01-27T08:00:00.0",
+            "early_finish": "2023-02-01T17:00:00.0",
+            "late_start": "2023-01-27T08:00:00.0",
+            "late_finish": "2023-02-01T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 26,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 28,
+                    "type": "FS"
+                },
+                {
+                    "task_unique_id": 29,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 27,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.26",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-02-01T17:00:00.0"
+        },
+        {
+            "start": "2023-02-02T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 86.4,
+            "name": "Install pump",
+            "wbs": "1.27",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 28,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2023-02-02T08:00:00.0",
+            "early_finish": "2023-02-11T17:00:00.0",
+            "late_start": "2023-02-02T08:00:00.0",
+            "late_finish": "2023-02-11T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 27,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 30,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 28,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.27",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-02-11T17:00:00.0"
+        },
+        {
+            "start": "2023-02-02T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 3110400,
+            "remaining_work": 3110400,
+            "cost": 259.2,
+            "name": "Alignment",
+            "wbs": "1.28",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "id": 29,
+            "priority": 500,
+            "duration": 777600,
+            "duration_variance": 777600,
+            "remaining_duration": 777600,
+            "early_start": "2023-02-02T08:00:00.0",
+            "early_finish": "2023-03-04T17:00:00.0",
+            "late_start": "2023-02-13T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 27,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 29,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.28",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 259200,
+            "finish_slack": 259200,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-03-04T17:00:00.0"
+        },
+        {
+            "start": "2023-02-13T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 86.4,
+            "name": "Couple back with motor",
+            "wbs": "1.29",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 30,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2023-02-13T08:00:00.0",
+            "early_finish": "2023-02-22T17:00:00.0",
+            "late_start": "2023-02-13T08:00:00.0",
+            "late_finish": "2023-02-22T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 28,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 31,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 30,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.29",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-02-22T17:00:00.0"
+        },
+        {
+            "start": "2023-02-23T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Spade out",
+            "wbs": "1.30",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 31,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2023-02-23T08:00:00.0",
+            "early_finish": "2023-03-04T17:00:00.0",
+            "late_start": "2023-02-23T08:00:00.0",
+            "late_finish": "2023-03-04T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 30,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 32,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 31,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.30",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-03-04T17:00:00.0"
+        },
+        {
+            "start": "2023-03-06T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 86.4,
+            "name": "Fuse in, LOTO out",
+            "wbs": "1.31",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "critical": true,
+            "id": 32,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2023-03-06T08:00:00.0",
+            "early_finish": "2023-03-15T17:00:00.0",
+            "late_start": "2023-03-06T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 31,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 32,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.31",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-03-15T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 128.0,
+            "name": "Equiment Spadework 2",
+            "wbs": "1.32",
+            "constraint_type": "START_NO_EARLIER_THAN",
+            "constraint_date": "2022-10-24T08:00:00.0",
+            "total_slack": 180,
+            "id": 33,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2022-11-01T17:00:00.0",
+            "late_start": "2022-11-29T08:00:00.0",
+            "late_finish": "2022-12-07T17:00:00.0",
+            "successors": [
+                {
+                    "task_unique_id": 34,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 33,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.32",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-01T17:00:00.0"
+        },
+        {
+            "start": "2022-11-02T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Prep top cover and elbow  / Manhole cover removal",
+            "wbs": "1.33",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 34,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-11-02T08:00:00.0",
+            "early_finish": "2022-11-11T17:00:00.0",
+            "late_start": "2022-12-08T08:00:00.0",
+            "late_finish": "2022-12-17T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 33,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 35,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 34,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.33",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-11T17:00:00.0"
+        },
+        {
+            "start": "2022-11-12T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "name": "Lift top cover and elbow / Manhole cover (Using Crane)",
+            "wbs": "1.34",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 35,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-12T08:00:00.0",
+            "early_finish": "2022-11-12T17:00:00.0",
+            "late_start": "2022-12-19T08:00:00.0",
+            "late_finish": "2022-12-19T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 34,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 36,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 35,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.34",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Remove demister",
+            "wbs": "1.35",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 36,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-11-14T08:00:00.0",
+            "early_finish": "2022-11-17T17:00:00.0",
+            "late_start": "2022-12-20T08:00:00.0",
+            "late_finish": "2022-12-23T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 35,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 37,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 36,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.35",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-18T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 115200,
+            "remaining_work": 115200,
+            "cost": 9.6,
+            "name": "Set up ventilation",
+            "wbs": "1.36",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 37,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-11-18T08:00:00.0",
+            "early_finish": "2022-11-19T17:00:00.0",
+            "late_start": "2022-12-24T08:00:00.0",
+            "late_finish": "2022-12-26T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 36,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 38,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 37,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.36",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-19T17:00:00.0"
+        },
+        {
+            "start": "2022-11-21T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Gas test for CS entry",
+            "wbs": "1.37",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 38,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-21T08:00:00.0",
+            "early_finish": "2022-11-21T17:00:00.0",
+            "late_start": "2022-12-27T08:00:00.0",
+            "late_finish": "2022-12-27T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 37,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 39,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 38,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.37",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 48.0,
+            "name": "Pre-cleaning inspection",
+            "wbs": "1.38",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 39,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-11-22T08:00:00.0",
+            "early_finish": "2022-11-23T17:00:00.0",
+            "late_start": "2022-12-28T08:00:00.0",
+            "late_finish": "2022-12-29T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 38,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 40,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 39,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.38",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 76.8,
+            "name": "Clean Internal",
+            "wbs": "1.39",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 40,
+            "priority": 500,
+            "duration": 460800,
+            "duration_variance": 460800,
+            "remaining_duration": 460800,
+            "early_start": "2022-11-24T08:00:00.0",
+            "early_finish": "2022-12-12T17:00:00.0",
+            "late_start": "2022-12-30T08:00:00.0",
+            "late_finish": "2023-01-17T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 39,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 41,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 40,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.39",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Post-cleaning inspection",
+            "wbs": "1.40",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 41,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-12-13T08:00:00.0",
+            "early_finish": "2022-12-13T17:00:00.0",
+            "late_start": "2023-01-18T08:00:00.0",
+            "late_finish": "2023-01-18T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 40,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 42,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 41,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.40",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-13T17:00:00.0"
+        },
+        {
+            "start": "2022-12-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Replace demister with new",
+            "wbs": "1.41",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 42,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-12-14T08:00:00.0",
+            "early_finish": "2022-12-17T17:00:00.0",
+            "late_start": "2023-01-19T08:00:00.0",
+            "late_finish": "2023-01-23T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 41,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 43,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 42,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.41",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "overallocated": true,
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-17T17:00:00.0"
+        },
+        {
+            "start": "2022-12-19T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Powerbrush for UTG @ CML (HW)",
+            "wbs": "1.42",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 43,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-12-19T08:00:00.0",
+            "early_finish": "2022-12-27T17:00:00.0",
+            "late_start": "2023-01-24T08:00:00.0",
+            "late_finish": "2023-02-01T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 42,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 44,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 43,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.42",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-27T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 230400,
+            "remaining_work": 230400,
+            "cost": 192.0,
+            "name": "UTG @ CML",
+            "wbs": "1.43",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 44,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-12-28T08:00:00.0",
+            "early_finish": "2023-01-05T17:00:00.0",
+            "late_start": "2023-02-02T08:00:00.0",
+            "late_finish": "2023-02-10T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 43,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 45,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 44,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.43",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-05T17:00:00.0"
+        },
+        {
+            "start": "2023-01-06T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 32.0,
+            "name": "Lift top cover and elbow / manhole cover for reinstatement  (Using Crane)",
+            "wbs": "1.44",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 45,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2023-01-06T08:00:00.0",
+            "early_finish": "2023-01-07T17:00:00.0",
+            "late_start": "2023-02-11T08:00:00.0",
+            "late_finish": "2023-02-13T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 44,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 46,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 45,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.44",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-07T17:00:00.0"
+        },
+        {
+            "start": "2023-01-09T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1612800,
+            "remaining_work": 1612800,
+            "cost": 224.0,
+            "name": "Reinstate top cover and elbow / manhole cover / TFA",
+            "wbs": "1.45",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 46,
+            "priority": 500,
+            "duration": 403200,
+            "duration_variance": 403200,
+            "remaining_duration": 403200,
+            "early_start": "2023-01-09T08:00:00.0",
+            "early_finish": "2023-01-24T17:00:00.0",
+            "late_start": "2023-02-14T08:00:00.0",
+            "late_finish": "2023-03-01T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 45,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 47,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 46,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.45",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-24T17:00:00.0"
+        },
+        {
+            "start": "2023-01-25T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1382400,
+            "remaining_work": 1382400,
+            "cost": 192.0,
+            "name": "Despade / TFA",
+            "wbs": "1.46",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 180,
+            "total_slack": 180,
+            "id": 47,
+            "priority": 500,
+            "duration": 345600,
+            "duration_variance": 345600,
+            "remaining_duration": 345600,
+            "early_start": "2023-01-25T08:00:00.0",
+            "early_finish": "2023-02-07T17:00:00.0",
+            "late_start": "2023-03-02T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 46,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 47,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.46",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-02-07T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 128.0,
+            "name": "Equiment Spadework 3",
+            "wbs": "1.47",
+            "constraint_type": "START_NO_EARLIER_THAN",
+            "constraint_date": "2022-10-24T08:00:00.0",
+            "total_slack": 180,
+            "id": 48,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2022-11-01T17:00:00.0",
+            "late_start": "2022-11-29T08:00:00.0",
+            "late_finish": "2022-12-07T17:00:00.0",
+            "successors": [
+                {
+                    "task_unique_id": 49,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 48,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.47",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-01T17:00:00.0"
+        },
+        {
+            "start": "2022-11-02T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Prep top cover and elbow  / Manhole cover removal",
+            "wbs": "1.48",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 49,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-11-02T08:00:00.0",
+            "early_finish": "2022-11-11T17:00:00.0",
+            "late_start": "2022-12-08T08:00:00.0",
+            "late_finish": "2022-12-17T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 48,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 50,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 49,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.48",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-11T17:00:00.0"
+        },
+        {
+            "start": "2022-11-12T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 16.0,
+            "name": "Lift top cover and elbow / Manhole cover (Using Crane)",
+            "wbs": "1.49",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 50,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-12T08:00:00.0",
+            "early_finish": "2022-11-12T17:00:00.0",
+            "late_start": "2022-12-19T08:00:00.0",
+            "late_finish": "2022-12-19T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 49,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 51,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 50,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.49",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Remove demister",
+            "wbs": "1.50",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 51,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-11-14T08:00:00.0",
+            "early_finish": "2022-11-17T17:00:00.0",
+            "late_start": "2022-12-20T08:00:00.0",
+            "late_finish": "2022-12-23T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 50,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 52,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 51,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.50",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-18T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 115200,
+            "remaining_work": 115200,
+            "cost": 9.6,
+            "name": "Set up ventilation",
+            "wbs": "1.51",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 52,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-11-18T08:00:00.0",
+            "early_finish": "2022-11-19T17:00:00.0",
+            "late_start": "2022-12-24T08:00:00.0",
+            "late_finish": "2022-12-26T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 51,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 53,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 52,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.51",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-19T17:00:00.0"
+        },
+        {
+            "start": "2022-11-21T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Gas test for CS entry",
+            "wbs": "1.52",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 53,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-21T08:00:00.0",
+            "early_finish": "2022-11-21T17:00:00.0",
+            "late_start": "2022-12-27T08:00:00.0",
+            "late_finish": "2022-12-27T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 52,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 54,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 53,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.52",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 48.0,
+            "name": "Pre-cleaning inspection",
+            "wbs": "1.53",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 54,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-11-22T08:00:00.0",
+            "early_finish": "2022-11-23T17:00:00.0",
+            "late_start": "2022-12-28T08:00:00.0",
+            "late_finish": "2022-12-29T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 53,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 55,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 54,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.53",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 921600,
+            "remaining_work": 921600,
+            "cost": 76.8,
+            "name": "Clean Internal",
+            "wbs": "1.54",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 55,
+            "priority": 500,
+            "duration": 460800,
+            "duration_variance": 460800,
+            "remaining_duration": 460800,
+            "early_start": "2022-11-24T08:00:00.0",
+            "early_finish": "2022-12-12T17:00:00.0",
+            "late_start": "2022-12-30T08:00:00.0",
+            "late_finish": "2023-01-17T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 54,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 56,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 55,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.54",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Post-cleaning inspection",
+            "wbs": "1.55",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 56,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-12-13T08:00:00.0",
+            "early_finish": "2022-12-13T17:00:00.0",
+            "late_start": "2023-01-18T08:00:00.0",
+            "late_finish": "2023-01-18T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 55,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 57,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 56,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.55",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-13T17:00:00.0"
+        },
+        {
+            "start": "2022-12-14T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Replace demister with new",
+            "wbs": "1.56",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 57,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-12-14T08:00:00.0",
+            "early_finish": "2022-12-17T17:00:00.0",
+            "late_start": "2023-01-19T08:00:00.0",
+            "late_finish": "2023-01-23T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 56,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 58,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 57,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.56",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "overallocated": true,
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-17T17:00:00.0"
+        },
+        {
+            "start": "2022-12-19T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 460800,
+            "remaining_work": 460800,
+            "cost": 38.4,
+            "name": "Powerbrush for UTG @ CML (HW)",
+            "wbs": "1.57",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 58,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-12-19T08:00:00.0",
+            "early_finish": "2022-12-27T17:00:00.0",
+            "late_start": "2023-01-24T08:00:00.0",
+            "late_finish": "2023-02-01T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 57,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 59,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 58,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.57",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-27T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 230400,
+            "remaining_work": 230400,
+            "cost": 192.0,
+            "name": "UTG @ CML",
+            "wbs": "1.58",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 59,
+            "priority": 500,
+            "duration": 230400,
+            "duration_variance": 230400,
+            "remaining_duration": 230400,
+            "early_start": "2022-12-28T08:00:00.0",
+            "early_finish": "2023-01-05T17:00:00.0",
+            "late_start": "2023-02-02T08:00:00.0",
+            "late_finish": "2023-02-10T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 58,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 60,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 59,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.58",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-05T17:00:00.0"
+        },
+        {
+            "start": "2023-01-06T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 32.0,
+            "name": "Lift top cover and elbow / manhole cover for reinstatement  (Using Crane)",
+            "wbs": "1.59",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 60,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2023-01-06T08:00:00.0",
+            "early_finish": "2023-01-07T17:00:00.0",
+            "late_start": "2023-02-11T08:00:00.0",
+            "late_finish": "2023-02-13T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 59,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 61,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 60,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.59",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-07T17:00:00.0"
+        },
+        {
+            "start": "2023-01-09T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1612800,
+            "remaining_work": 1612800,
+            "cost": 224.0,
+            "name": "Reinstate top cover and elbow / manhole cover / TFA",
+            "wbs": "1.60",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 180,
+            "id": 61,
+            "priority": 500,
+            "duration": 403200,
+            "duration_variance": 403200,
+            "remaining_duration": 403200,
+            "early_start": "2023-01-09T08:00:00.0",
+            "early_finish": "2023-01-24T17:00:00.0",
+            "late_start": "2023-02-14T08:00:00.0",
+            "late_finish": "2023-03-01T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 60,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 62,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 61,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.60",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-24T17:00:00.0"
+        },
+        {
+            "start": "2023-01-25T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1382400,
+            "remaining_work": 1382400,
+            "cost": 192.0,
+            "name": "Despade / TFA",
+            "wbs": "1.61",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 180,
+            "total_slack": 180,
+            "id": 62,
+            "priority": 500,
+            "duration": 345600,
+            "duration_variance": 345600,
+            "remaining_duration": 345600,
+            "early_start": "2023-01-25T08:00:00.0",
+            "early_finish": "2023-02-07T17:00:00.0",
+            "late_start": "2023-03-02T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 61,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 62,
+            "created": "2022-01-19T15:07:48.0",
+            "outline_number": "1.61",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 892800,
+            "finish_slack": 892800,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-02-07T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 48.0,
+            "name": "[Add08]NDT/ Inspection",
+            "wbs": "1.62",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 420,
+            "total_slack": 420,
+            "id": 63,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-12-13T08:00:00.0",
+            "early_finish": "2022-12-14T17:00:00.0",
+            "late_start": "2023-03-14T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 171,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 170,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.62",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2246400,
+            "finish_slack": 2246400,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-14T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 2073600,
+            "remaining_work": 2073600,
+            "cost": 2304.0,
+            "name": "[Add08]Hotwork to install new v/v",
+            "wbs": "1.63",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 420,
+            "id": 64,
+            "priority": 500,
+            "duration": 518400,
+            "duration_variance": 518400,
+            "remaining_duration": 518400,
+            "early_start": "2022-11-22T08:00:00.0",
+            "early_finish": "2022-12-12T17:00:00.0",
+            "late_start": "2023-02-21T08:00:00.0",
+            "late_finish": "2023-03-13T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 172,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 170,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 171,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.63",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2246400,
+            "finish_slack": 2246400,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-11T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 1152.0,
+            "name": "[Add08]Hotwork to remove N2 v/v (1\" 1108Y)",
+            "wbs": "1.64",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 420,
+            "id": 65,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-11-11T08:00:00.0",
+            "early_finish": "2022-11-21T17:00:00.0",
+            "late_start": "2023-02-10T08:00:00.0",
+            "late_finish": "2023-02-20T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 184,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 171,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 172,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.64",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2246400,
+            "finish_slack": 2246400,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 57600,
+            "remaining_work": 57600,
+            "cost": 48.0,
+            "name": "Post clean inspection",
+            "wbs": "1.65",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 360,
+            "total_slack": 360,
+            "id": 66,
+            "priority": 500,
+            "duration": 57600,
+            "duration_variance": 57600,
+            "remaining_duration": 57600,
+            "early_start": "2022-12-28T08:00:00.0",
+            "early_finish": "2022-12-29T17:00:00.0",
+            "late_start": "2023-03-14T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 176,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 173,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.65",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1872000,
+            "finish_slack": 1872000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-29T17:00:00.0"
+        },
+        {
+            "start": "2023-01-21T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 0.1,
+            "name": "Handback",
+            "wbs": "1.66",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 240,
+            "total_slack": 240,
+            "id": 67,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2023-01-21T08:00:00.0",
+            "early_finish": "2023-01-21T17:00:00.0",
+            "late_start": "2023-03-15T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 185,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 174,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.66",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-21T17:00:00.0"
+        },
+        {
+            "start": "2022-11-10T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 115200,
+            "remaining_work": 115200,
+            "cost": 96.0,
+            "name": "UTG CML",
+            "wbs": "1.67",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 600,
+            "total_slack": 600,
+            "id": 68,
+            "priority": 500,
+            "duration": 115200,
+            "duration_variance": 115200,
+            "remaining_duration": 115200,
+            "early_start": "2022-11-10T08:00:00.0",
+            "early_finish": "2022-11-14T17:00:00.0",
+            "late_start": "2023-03-11T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 182,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 175,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.67",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 2995200,
+            "finish_slack": 2995200,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-14T17:00:00.0"
+        },
+        {
+            "start": "2022-12-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 86400,
+            "remaining_work": 86400,
+            "cost": 72.0,
+            "name": "Sulphide SCC Insp by MT",
+            "wbs": "1.68",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 69,
+            "priority": 500,
+            "duration": 86400,
+            "duration_variance": 86400,
+            "remaining_duration": 86400,
+            "early_start": "2022-12-24T08:00:00.0",
+            "early_finish": "2022-12-27T17:00:00.0",
+            "late_start": "2023-02-15T08:00:00.0",
+            "late_finish": "2023-02-17T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 177,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 173,
+                    "type": "FS"
+                },
+                {
+                    "task_unique_id": 180,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 176,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.68",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-27T17:00:00.0"
+        },
+        {
+            "start": "2022-12-07T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1728000,
+            "remaining_work": 1728000,
+            "cost": 144.0,
+            "name": "Power brush on weld seam",
+            "wbs": "1.69",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 70,
+            "priority": 500,
+            "duration": 432000,
+            "duration_variance": 432000,
+            "remaining_duration": 432000,
+            "early_start": "2022-12-07T08:00:00.0",
+            "early_finish": "2022-12-23T17:00:00.0",
+            "late_start": "2023-01-28T08:00:00.0",
+            "late_finish": "2023-02-14T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 181,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 176,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 177,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.69",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "overallocated": true,
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-23T17:00:00.0"
+        },
+        {
+            "start": "2022-12-07T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 2534400,
+            "remaining_work": 2534400,
+            "cost": 352.0,
+            "name": "[CRER] Remove sightglass, and replaced with magnetic Sightglass",
+            "wbs": "1.70",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "free_slack": 360,
+            "total_slack": 360,
+            "id": 71,
+            "priority": 500,
+            "duration": 633600,
+            "duration_variance": 633600,
+            "remaining_duration": 633600,
+            "early_start": "2022-12-07T08:00:00.0",
+            "early_finish": "2022-12-31T17:00:00.0",
+            "late_start": "2023-02-18T08:00:00.0",
+            "late_finish": "2023-03-15T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 181,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 178,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.70",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1814400,
+            "finish_slack": 1814400,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-31T17:00:00.0"
+        },
+        {
+            "start": "2022-12-31T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Boxup (incl TFA)",
+            "wbs": "1.71",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 72,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-12-31T08:00:00.0",
+            "early_finish": "2023-01-10T17:00:00.0",
+            "late_start": "2023-02-22T08:00:00.0",
+            "late_finish": "2023-03-03T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 180,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 185,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 179,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.71",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-10T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 172800,
+            "remaining_work": 172800,
+            "cost": 144.0,
+            "name": "Final Inspection",
+            "wbs": "1.72",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 73,
+            "priority": 500,
+            "duration": 86400,
+            "duration_variance": 86400,
+            "remaining_duration": 86400,
+            "early_start": "2022-12-28T08:00:00.0",
+            "early_finish": "2022-12-30T17:00:00.0",
+            "late_start": "2023-02-18T08:00:00.0",
+            "late_finish": "2023-02-21T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 176,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 179,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 180,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.72",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-30T17:00:00.0"
+        },
+        {
+            "start": "2022-11-11T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 2534400,
+            "remaining_work": 2534400,
+            "cost": 211.2,
+            "name": "Clean internal and clear all nozzle tappings and ease all isolation valves",
+            "wbs": "1.73",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 74,
+            "priority": 500,
+            "duration": 633600,
+            "duration_variance": 633600,
+            "remaining_duration": 633600,
+            "early_start": "2022-11-11T08:00:00.0",
+            "early_finish": "2022-12-06T17:00:00.0",
+            "late_start": "2023-01-03T08:00:00.0",
+            "late_finish": "2023-01-27T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 184,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 177,
+                    "type": "FS"
+                },
+                {
+                    "task_unique_id": 178,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 181,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.73",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-12-06T17:00:00.0"
+        },
+        {
+            "start": "2022-11-03T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 691200,
+            "remaining_work": 691200,
+            "cost": 96.0,
+            "name": "Open end cover and clean",
+            "wbs": "1.74",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 75,
+            "priority": 500,
+            "duration": 172800,
+            "duration_variance": 172800,
+            "remaining_duration": 172800,
+            "early_start": "2022-11-03T08:00:00.0",
+            "early_finish": "2022-11-09T17:00:00.0",
+            "late_start": "2022-12-26T08:00:00.0",
+            "late_finish": "2022-12-31T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 183,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 175,
+                    "type": "FS"
+                },
+                {
+                    "task_unique_id": 184,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 182,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.74",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-09T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Spade",
+            "wbs": "1.75",
+            "constraint_type": "START_NO_EARLIER_THAN",
+            "constraint_date": "2022-10-24T08:00:00.0",
+            "total_slack": 240,
+            "id": 76,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2022-10-24T08:00:00.0",
+            "early_finish": "2022-11-02T17:00:00.0",
+            "late_start": "2022-12-15T08:00:00.0",
+            "late_finish": "2022-12-24T17:00:00.0",
+            "successors": [
+                {
+                    "task_unique_id": 182,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 183,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.75",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-02T17:00:00.0"
+        },
+        {
+            "start": "2022-11-10T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 28800,
+            "remaining_work": 28800,
+            "cost": 24.0,
+            "name": "Preliminary inspection",
+            "wbs": "1.76",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 77,
+            "priority": 500,
+            "duration": 28800,
+            "duration_variance": 28800,
+            "remaining_duration": 28800,
+            "early_start": "2022-11-10T08:00:00.0",
+            "early_finish": "2022-11-10T17:00:00.0",
+            "late_start": "2023-01-02T08:00:00.0",
+            "late_finish": "2023-01-02T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 182,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 172,
+                    "type": "FS"
+                },
+                {
+                    "task_unique_id": 181,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 184,
+            "created": "2022-01-19T15:21:00.0",
+            "outline_number": "1.76",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2022-11-10T17:00:00.0"
+        },
+        {
+            "start": "2023-01-11T08:00:00.0",
+            "actual_duration_units": "h",
+            "leveling_delay_units": "h",
+            "work": 1036800,
+            "remaining_work": 1036800,
+            "cost": 144.0,
+            "name": "Despade + TFA",
+            "wbs": "1.77",
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "total_slack": 240,
+            "id": 78,
+            "priority": 500,
+            "duration": 259200,
+            "duration_variance": 259200,
+            "remaining_duration": 259200,
+            "early_start": "2023-01-11T08:00:00.0",
+            "early_finish": "2023-01-20T17:00:00.0",
+            "late_start": "2023-03-04T08:00:00.0",
+            "late_finish": "2023-03-14T17:00:00.0",
+            "predecessors": [
+                {
+                    "task_unique_id": 179,
+                    "type": "FS"
+                }
+            ],
+            "successors": [
+                {
+                    "task_unique_id": 174,
+                    "type": "FS"
+                }
+            ],
+            "outline_level": 2,
+            "unique_id": 185,
+            "created": "2022-01-19T15:21:42.0",
+            "outline_number": "1.77",
+            "type": "FIXED_DURATION",
+            "effort_driven": true,
+            "fixed_cost_accrual": "PRORATED",
+            "start_slack": 1296000,
+            "finish_slack": 1296000,
+            "active": true,
+            "parent_task_unique_id": 195,
+            "finish": "2023-01-20T17:00:00.0"
+        },
+        {
+            "constraint_type": "AS_SOON_AS_POSSIBLE",
+            "id": 79,
+            "unique_id": 194,
+            "active": true
+        }
+    ],
+    "assignments": [
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 1,
+            "task_unique_id": 5,
+            "resource_unique_id": 3,
+            "stop": "2022-11-17T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-21T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 2,
+            "task_unique_id": 7,
+            "resource_unique_id": 4,
+            "stop": "2022-11-21T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-12-14T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 3,
+            "task_unique_id": 11,
+            "resource_unique_id": 3,
+            "stop": "2022-12-17T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-17T17:00:00.0"
+        },
+        {
+            "start": "2022-12-21T08:00:00.0",
+            "cost": 224.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1612800,
+            "unique_id": 4,
+            "task_unique_id": 15,
+            "resource_unique_id": 1,
+            "stop": "2023-01-05T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-05T17:00:00.0"
+        },
+        {
+            "start": "2023-01-06T08:00:00.0",
+            "cost": 192.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1382400,
+            "unique_id": 5,
+            "task_unique_id": 16,
+            "resource_unique_id": 1,
+            "stop": "2023-01-19T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-19T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "cost": 86.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 6,
+            "task_unique_id": 21,
+            "resource_unique_id": 3,
+            "stop": "2022-11-02T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-02T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "cost": 172.8,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 2073600,
+            "unique_id": 7,
+            "task_unique_id": 24,
+            "resource_unique_id": 3,
+            "stop": "2022-12-14T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-14T17:00:00.0"
+        },
+        {
+            "start": "2023-01-27T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 576000,
+            "unique_id": 8,
+            "task_unique_id": 27,
+            "resource_unique_id": 3,
+            "stop": "2023-02-01T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-02-01T17:00:00.0"
+        },
+        {
+            "start": "2023-02-02T08:00:00.0",
+            "cost": 86.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 9,
+            "task_unique_id": 28,
+            "resource_unique_id": 3,
+            "stop": "2023-02-11T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-02-11T17:00:00.0"
+        },
+        {
+            "start": "2023-02-02T08:00:00.0",
+            "cost": 259.2,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 3110400,
+            "unique_id": 10,
+            "task_unique_id": 29,
+            "resource_unique_id": 3,
+            "stop": "2023-03-04T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-03-04T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "cost": 128.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 11,
+            "task_unique_id": 33,
+            "resource_unique_id": 1,
+            "stop": "2022-11-01T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-01T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 12,
+            "task_unique_id": 36,
+            "resource_unique_id": 3,
+            "stop": "2022-11-17T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-21T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 13,
+            "task_unique_id": 38,
+            "resource_unique_id": 4,
+            "stop": "2022-11-21T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-12-14T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 14,
+            "task_unique_id": 42,
+            "resource_unique_id": 3,
+            "stop": "2022-12-17T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-17T17:00:00.0"
+        },
+        {
+            "start": "2023-01-09T08:00:00.0",
+            "cost": 224.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1612800,
+            "unique_id": 15,
+            "task_unique_id": 46,
+            "resource_unique_id": 1,
+            "stop": "2023-01-24T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-24T17:00:00.0"
+        },
+        {
+            "start": "2023-01-25T08:00:00.0",
+            "cost": 192.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1382400,
+            "unique_id": 16,
+            "task_unique_id": 47,
+            "resource_unique_id": 1,
+            "stop": "2023-02-07T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-02-07T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "cost": 128.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 17,
+            "task_unique_id": 48,
+            "resource_unique_id": 1,
+            "stop": "2022-11-01T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-01T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 18,
+            "task_unique_id": 51,
+            "resource_unique_id": 3,
+            "stop": "2022-11-17T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-17T17:00:00.0"
+        },
+        {
+            "start": "2022-11-21T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 19,
+            "task_unique_id": 53,
+            "resource_unique_id": 4,
+            "stop": "2022-11-21T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-12-14T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 20,
+            "task_unique_id": 57,
+            "resource_unique_id": 3,
+            "stop": "2022-12-17T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-17T17:00:00.0"
+        },
+        {
+            "start": "2023-01-09T08:00:00.0",
+            "cost": 224.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1612800,
+            "unique_id": 21,
+            "task_unique_id": 61,
+            "resource_unique_id": 1,
+            "stop": "2023-01-24T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-24T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "cost": 2304.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 2073600,
+            "unique_id": 22,
+            "task_unique_id": 171,
+            "resource_unique_id": 6,
+            "stop": "2022-12-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-10T08:00:00.0",
+            "cost": 96.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 115200,
+            "unique_id": 23,
+            "task_unique_id": 175,
+            "resource_unique_id": 4,
+            "stop": "2022-11-14T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-14T17:00:00.0"
+        },
+        {
+            "start": "2022-12-07T08:00:00.0",
+            "cost": 352.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 2534400,
+            "unique_id": 24,
+            "task_unique_id": 178,
+            "resource_unique_id": 1,
+            "stop": "2022-12-31T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-31T17:00:00.0"
+        },
+        {
+            "start": "2022-11-03T08:00:00.0",
+            "cost": 96.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 691200,
+            "unique_id": 25,
+            "task_unique_id": 182,
+            "resource_unique_id": 1,
+            "stop": "2022-11-09T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-09T17:00:00.0"
+        },
+        {
+            "start": "2022-11-02T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 26,
+            "task_unique_id": 3,
+            "resource_unique_id": 1,
+            "stop": "2022-11-11T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-11T17:00:00.0"
+        },
+        {
+            "start": "2022-11-12T08:00:00.0",
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "unique_id": 27,
+            "task_unique_id": 4,
+            "resource_unique_id": 2,
+            "stop": "2022-11-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-18T08:00:00.0",
+            "cost": 9.6,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 115200,
+            "unique_id": 28,
+            "task_unique_id": 6,
+            "resource_unique_id": 3,
+            "stop": "2022-11-19T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-19T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 29,
+            "task_unique_id": 8,
+            "resource_unique_id": 4,
+            "stop": "2022-11-23T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 30,
+            "task_unique_id": 10,
+            "resource_unique_id": 4,
+            "stop": "2022-12-13T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-13T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 31,
+            "task_unique_id": 12,
+            "resource_unique_id": 3,
+            "stop": "2022-12-02T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-02T17:00:00.0"
+        },
+        {
+            "start": "2022-12-03T08:00:00.0",
+            "cost": 192.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 230400,
+            "unique_id": 32,
+            "task_unique_id": 13,
+            "resource_unique_id": 4,
+            "stop": "2022-12-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-19T08:00:00.0",
+            "cost": 32.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 33,
+            "task_unique_id": 14,
+            "resource_unique_id": 2,
+            "stop": "2022-12-20T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-20T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 345600,
+            "unique_id": 34,
+            "task_unique_id": 17,
+            "resource_unique_id": 1,
+            "stop": "2022-10-26T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-10-26T17:00:00.0"
+        },
+        {
+            "start": "2022-10-27T08:00:00.0",
+            "cost": 360.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 864000,
+            "unique_id": 35,
+            "task_unique_id": 18,
+            "resource_unique_id": 5,
+            "stop": "2022-11-30T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-30T17:00:00.0"
+        },
+        {
+            "start": "2022-12-01T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 36,
+            "task_unique_id": 19,
+            "resource_unique_id": 4,
+            "stop": "2022-12-02T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-02T17:00:00.0"
+        },
+        {
+            "start": "2022-12-03T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 345600,
+            "unique_id": 37,
+            "task_unique_id": 20,
+            "resource_unique_id": 1,
+            "stop": "2022-12-06T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-06T17:00:00.0"
+        },
+        {
+            "start": "2022-12-15T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 576000,
+            "unique_id": 38,
+            "task_unique_id": 22,
+            "resource_unique_id": 3,
+            "stop": "2022-12-20T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-20T17:00:00.0"
+        },
+        {
+            "start": "2022-11-03T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 39,
+            "task_unique_id": 23,
+            "resource_unique_id": 1,
+            "stop": "2022-11-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-14T08:00:00.0",
+            "cost": 86.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 40,
+            "task_unique_id": 25,
+            "resource_unique_id": 3,
+            "stop": "2022-11-23T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-12-21T08:00:00.0",
+            "cost": 384.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 41,
+            "task_unique_id": 26,
+            "resource_unique_id": 5,
+            "stop": "2023-01-26T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-26T17:00:00.0"
+        },
+        {
+            "start": "2023-02-13T08:00:00.0",
+            "cost": 86.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 42,
+            "task_unique_id": 30,
+            "resource_unique_id": 3,
+            "stop": "2023-02-22T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-02-22T17:00:00.0"
+        },
+        {
+            "start": "2023-02-23T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 43,
+            "task_unique_id": 31,
+            "resource_unique_id": 1,
+            "stop": "2023-03-04T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-03-04T17:00:00.0"
+        },
+        {
+            "start": "2023-03-06T08:00:00.0",
+            "cost": 86.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 44,
+            "task_unique_id": 32,
+            "resource_unique_id": 3,
+            "stop": "2023-03-15T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-03-15T17:00:00.0"
+        },
+        {
+            "start": "2022-11-02T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 45,
+            "task_unique_id": 34,
+            "resource_unique_id": 1,
+            "stop": "2022-11-11T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-11T17:00:00.0"
+        },
+        {
+            "start": "2022-11-12T08:00:00.0",
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "unique_id": 46,
+            "task_unique_id": 35,
+            "resource_unique_id": 2,
+            "stop": "2022-11-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-18T08:00:00.0",
+            "cost": 9.6,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 115200,
+            "unique_id": 47,
+            "task_unique_id": 37,
+            "resource_unique_id": 3,
+            "stop": "2022-11-19T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-19T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 48,
+            "task_unique_id": 39,
+            "resource_unique_id": 4,
+            "stop": "2022-11-23T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "cost": 76.8,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 49,
+            "task_unique_id": 40,
+            "resource_unique_id": 3,
+            "stop": "2022-12-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 50,
+            "task_unique_id": 41,
+            "resource_unique_id": 4,
+            "stop": "2022-12-13T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-13T17:00:00.0"
+        },
+        {
+            "start": "2022-12-19T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 51,
+            "task_unique_id": 43,
+            "resource_unique_id": 3,
+            "stop": "2022-12-27T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-27T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "cost": 192.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 230400,
+            "unique_id": 52,
+            "task_unique_id": 44,
+            "resource_unique_id": 4,
+            "stop": "2023-01-05T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-05T17:00:00.0"
+        },
+        {
+            "start": "2023-01-06T08:00:00.0",
+            "cost": 32.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 53,
+            "task_unique_id": 45,
+            "resource_unique_id": 2,
+            "stop": "2023-01-07T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-07T17:00:00.0"
+        },
+        {
+            "start": "2022-11-02T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 54,
+            "task_unique_id": 49,
+            "resource_unique_id": 1,
+            "stop": "2022-11-11T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-11T17:00:00.0"
+        },
+        {
+            "start": "2022-11-12T08:00:00.0",
+            "cost": 16.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 55,
+            "task_unique_id": 50,
+            "resource_unique_id": 2,
+            "stop": "2022-11-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-12T17:00:00.0"
+        },
+        {
+            "start": "2022-11-18T08:00:00.0",
+            "cost": 9.6,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 115200,
+            "unique_id": 56,
+            "task_unique_id": 52,
+            "resource_unique_id": 3,
+            "stop": "2022-11-19T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-19T17:00:00.0"
+        },
+        {
+            "start": "2022-11-22T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 57,
+            "task_unique_id": 54,
+            "resource_unique_id": 4,
+            "stop": "2022-11-23T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-23T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "cost": 76.8,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 58,
+            "task_unique_id": 55,
+            "resource_unique_id": 3,
+            "stop": "2022-12-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 59,
+            "task_unique_id": 56,
+            "resource_unique_id": 4,
+            "stop": "2022-12-13T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-13T17:00:00.0"
+        },
+        {
+            "start": "2022-12-19T08:00:00.0",
+            "cost": 38.4,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 460800,
+            "unique_id": 60,
+            "task_unique_id": 58,
+            "resource_unique_id": 3,
+            "stop": "2022-12-27T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-27T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "cost": 192.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 230400,
+            "unique_id": 61,
+            "task_unique_id": 59,
+            "resource_unique_id": 4,
+            "stop": "2023-01-05T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-05T17:00:00.0"
+        },
+        {
+            "start": "2023-01-06T08:00:00.0",
+            "cost": 32.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 62,
+            "task_unique_id": 60,
+            "resource_unique_id": 2,
+            "stop": "2023-01-07T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-07T17:00:00.0"
+        },
+        {
+            "start": "2023-01-25T08:00:00.0",
+            "cost": 192.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1382400,
+            "unique_id": 63,
+            "task_unique_id": 62,
+            "resource_unique_id": 1,
+            "stop": "2023-02-07T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-02-07T17:00:00.0"
+        },
+        {
+            "start": "2022-12-13T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 64,
+            "task_unique_id": 170,
+            "resource_unique_id": 4,
+            "stop": "2022-12-14T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-14T17:00:00.0"
+        },
+        {
+            "start": "2022-11-11T08:00:00.0",
+            "cost": 1152.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 65,
+            "task_unique_id": 172,
+            "resource_unique_id": 6,
+            "stop": "2022-11-21T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-21T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "cost": 48.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 57600,
+            "unique_id": 66,
+            "task_unique_id": 173,
+            "resource_unique_id": 4,
+            "stop": "2022-12-29T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-29T17:00:00.0"
+        },
+        {
+            "start": "2023-01-21T08:00:00.0",
+            "cost": 0.1,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 67,
+            "task_unique_id": 174,
+            "resource_unique_id": 7,
+            "stop": "2023-01-21T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-21T17:00:00.0"
+        },
+        {
+            "start": "2022-12-24T08:00:00.0",
+            "cost": 72.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 86400,
+            "unique_id": 68,
+            "task_unique_id": 176,
+            "resource_unique_id": 4,
+            "stop": "2022-12-27T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-27T17:00:00.0"
+        },
+        {
+            "start": "2022-12-07T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1728000,
+            "unique_id": 69,
+            "task_unique_id": 177,
+            "resource_unique_id": 3,
+            "stop": "2022-12-23T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-23T17:00:00.0"
+        },
+        {
+            "start": "2022-12-31T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 70,
+            "task_unique_id": 179,
+            "resource_unique_id": 1,
+            "stop": "2023-01-10T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-10T17:00:00.0"
+        },
+        {
+            "start": "2022-12-28T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 172800,
+            "unique_id": 71,
+            "task_unique_id": 180,
+            "resource_unique_id": 4,
+            "stop": "2022-12-30T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-30T17:00:00.0"
+        },
+        {
+            "start": "2022-11-11T08:00:00.0",
+            "cost": 211.2,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 2534400,
+            "unique_id": 72,
+            "task_unique_id": 181,
+            "resource_unique_id": 3,
+            "stop": "2022-12-06T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-06T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 73,
+            "task_unique_id": 183,
+            "resource_unique_id": 1,
+            "stop": "2022-11-02T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-02T17:00:00.0"
+        },
+        {
+            "start": "2022-11-10T08:00:00.0",
+            "cost": 24.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 28800,
+            "unique_id": 74,
+            "task_unique_id": 184,
+            "resource_unique_id": 4,
+            "stop": "2022-11-10T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-10T17:00:00.0"
+        },
+        {
+            "start": "2023-01-11T08:00:00.0",
+            "cost": 144.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 1036800,
+            "unique_id": 75,
+            "task_unique_id": 185,
+            "resource_unique_id": 1,
+            "stop": "2023-01-20T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2023-01-20T17:00:00.0"
+        },
+        {
+            "start": "2022-11-24T08:00:00.0",
+            "cost": 128.0,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 76,
+            "task_unique_id": 9,
+            "resource_unique_id": 1,
+            "stop": "2022-12-12T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-12-12T17:00:00.0"
+        },
+        {
+            "start": "2022-10-24T08:00:00.0",
+            "cost": 76.8,
+            "variable_rate_units": "DAYS",
+            "assignment_units": 100.0,
+            "work": 921600,
+            "unique_id": 77,
+            "task_unique_id": 2,
+            "resource_unique_id": 3,
+            "stop": "2022-11-01T17:00:00.0",
+            "rate_source": "RESOURCE",
+            "finish": "2022-11-01T17:00:00.0"
+        }
+    ]
+}

@@ -321,7 +321,7 @@ class Task:
     longest_path: bool
     primary_resource_id: int
 
-class Project:
+class Root:
     custom_fields: List[ None ]
     property_values: PropertyValues
     calendars: List[ Calendar ]

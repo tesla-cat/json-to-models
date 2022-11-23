@@ -6,17 +6,9 @@ from typing import Dict
 models_type = Dict[str, Dict[str, str]]
 
 class JsonToModels:
-    def __init__(s, data_dir, root_name):
+    def __init__(s, root_name):
         s.models: models_type = {}
         s.root_name: str = root_name
-
-        for path in glob.glob(f'{data_dir}/*.json'):
-            print(path)
-            with open(path) as f:
-                data = json.load(f)
-            s.extract_models(data)
-        
-        s.write_models()
 
     def extract_models(s, data):
 
@@ -82,4 +74,16 @@ class JsonToModels:
 
 
 if __name__=='__main__':
-    JsonToModels('./json_data', 'Root')
+    jtm = JsonToModels(root_name='Root')
+    data_dir = './json_data'
+    for path in glob.glob(f'{data_dir}/*.json'):
+        print(path)
+        with open(path) as f:
+            data = json.load(f)
+        jtm.extract_models(data)   
+    jtm.write_models()
+
+"""
+python -m build
+python -m twine upload dist/*
+"""
